@@ -66,6 +66,4 @@ SELECT COUNT(*) AS 'Number of Sales Person from London or Paris' FROM SalesPeopl
 
 
 -- 5
-SELECT Snum, COUNT(*), Odate FROM Orders GROUP BY Snum,Odate;  
-
-SELECT SNUM,COUNT(*),ODATE FROM ORDERS GROUP BY SNUM,ODATE;                                             
+SELECT Snum, COUNT(*), Odate FROM Orders GROUP BY Snum,Odate;                                               
